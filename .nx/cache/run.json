@@ -1,0 +1,54 @@
+{
+  "run": {
+    "command": "nx run-many --target=lint",
+    "startTime": "2024-07-11T13:04:15.357Z",
+    "endTime": "2024-07-11T13:04:18.127Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "app1-e2e:lint",
+      "target": "lint",
+      "projectName": "app1-e2e",
+      "hash": "14579696101616725191",
+      "startTime": "2024-07-11T13:04:15.372Z",
+      "endTime": "2024-07-11T13:04:16.717Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "lib1:lint",
+      "target": "lint",
+      "projectName": "lib1",
+      "hash": "1767070009304183838",
+      "startTime": "2024-07-11T13:04:15.405Z",
+      "endTime": "2024-07-11T13:04:16.892Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "app1:lint",
+      "target": "lint",
+      "projectName": "app1",
+      "hash": "749259919400748897",
+      "startTime": "2024-07-11T13:04:15.391Z",
+      "endTime": "2024-07-11T13:04:16.958Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "lib2:lint",
+      "target": "lint",
+      "projectName": "lib2",
+      "hash": "1751289650061242389",
+      "startTime": "2024-07-11T13:04:16.719Z",
+      "endTime": "2024-07-11T13:04:18.127Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
